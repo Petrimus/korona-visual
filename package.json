@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "watch": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ui": "rm -rf build && cd ../korona-visual && npm run build --prod && cp -r build ../korona-visual-back"
+  
   },
   "author": "Petri Palmu",
   "license": "MIT",
