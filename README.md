@@ -1,7 +1,30 @@
-# korona-visual-server
-Server is providing information about korona virus in Finland. Its main purpose is to serve react app korona-visual. Server is build with NodeJs and it is express server. It collects data from Helsingin Sanomat Korona API. It has a simple cache to store data as was requested HS Korona API.
+# korona-visual
+Application is providing information about korona virus in Finland. Live version is running on Google App Engine https://demoproject-218708.ey.r.appspot.com/.
+
+## Purpose
+Application has two reason to exist. I wrote it to demonstrate my programming skills as I am looking for new challanges as a developer. But it also provides uptodate information about Korona virus for anyone who finds it usefull.
+
+## Technique
+Application is small express server that serves static front end written with React. Express layer is added in order to be able to cache data requests to Helsingin Sanomat Korona API as was requested in HS Korona API. 
+
+### Front end
+Front end code is availlable XXXXX. It is React App.
+
+## Development
+Clone the repo and install node_modules using npm install. Clone the front end repo and likewise install node_modules using npm install. Start the server with npm run watch  command and open the browser in http://localhost:3001. Run the front end with command npm start and it should open in http://localhost:3000.
 
 ## API
-Server is running in Google Cloud App Engine at https://demoproject-218708.ey.r.appspot.com/. Paths that server responds are /infections, /hospitalised and /deaths. It returns data in JSON format.
+In addition to serve static build files, server also responds to data requests to the paths /api/infections, /api/hospitalised and /api/deaths. It is basicly sama data that HS Korona API provides. It is returned in JSON format.
 
-## Front end
+
+## Technologies
+React
+NodeJs
+Express
+Styled-components
+Recharts
+mcache
+etc
+
+## Licence
+MIT
