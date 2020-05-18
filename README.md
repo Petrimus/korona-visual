@@ -2,7 +2,7 @@
 Application is providing information about korona virus in Finland. Live version is running on Google App Engine https://demoproject-218708.ey.r.appspot.com/.
 
 ## Purpose
-Application has two reason to exist. I wrote it to demonstrate my programming skills as I am looking for new challanges as a developer. But it also provides uptodate information about Korona virus for anyone who finds it usefull.
+Application has two reason to exist. I wrote it to demonstrate my programming skills as I am looking for new challanges as a developer. But it also provides up-to-date information about Korona virus for anyone who finds it usefull.
 
 ## Technique
 Application is small express server that serves static front end written with React. Express layer is added in order to be able to cache data requests to Helsingin Sanomat Korona API as was requested in HS Korona API. 
