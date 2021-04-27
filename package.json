@@ -21,7 +21,7 @@
     "express-async-errors": "^3.1.1",
     "memoizee": "^0.4.14",
     "memory-cache": "^0.2.0",
-    "redis": "^3.0.2"
+    "redis": "^3.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
